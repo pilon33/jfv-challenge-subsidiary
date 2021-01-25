@@ -5,7 +5,7 @@
 
 
 ## How it works:
-## 0.1 Let's install PostgreSQL onto your operating system.
+## 0.1 Let's install PostgreSQL into your operating system.
 
 As an open source object-relational database management system, PostgreSQL available for MacOS, Linux, and Windows.
 
