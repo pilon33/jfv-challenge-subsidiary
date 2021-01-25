@@ -1,7 +1,4 @@
-
-## How it works:
-=======
-## Lightweight RESTful  API with Spring Boot,Spring Security PostgreSQL, JPA, Docker,Docker-compose Lombok, Swagger mockito, Units 4,Healthcheck and Exceptions.
+## Lightweight RESTful  API with Spring Boot,Spring Security PostgreSQL, JPA, Docker,Lombok, Swagger mockito, Units 4,Healthcheck.
 
 [Jose Francisco valdez]
 
@@ -22,7 +19,6 @@ Spring Boot App
 username: `admin` and password: `admin` 
 
 ```
->>>>>>> 1d05272db7d64d9da406d32c514b0956d638a4d9
 **1. Docker. First you need to install docker**
 * Download Docker [Here](https://docs.docker.com/docker-for-windows/install/). Hint: Enable Hyper-V feature on windows and restart;
 * Then open powershell and check:
