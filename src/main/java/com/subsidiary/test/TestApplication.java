@@ -1,7 +1,9 @@
-package com.jfv.subsidiary.test;
+package com.subsidiary.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
 
 @SpringBootApplication
 public class TestApplication {
