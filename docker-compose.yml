@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  app:
+    container_name: web-app-jfv
+    image: spring-boot-docker-postgres:latest
+    build: ./
+    ports:
+      - "8182:8182"
+    depends_on:
+      - postgresqldb
+  postgresqldb:
+    image: postgres
+    ports:
+      - "5432:5433"
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    healthcheck:
+      test: pg_isready -U postgres
+      interval: 1m
+      timeout: 10s
+      retries: 2
