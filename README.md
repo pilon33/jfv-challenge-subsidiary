@@ -1,4 +1,4 @@
-## Lightweight RESTful  API with Spring Boot,Spring Security PostgreSQL, JPA, Docker,Lombok, Swagger mockito, Units 4,Healthcheck.
+## Challenge RESTful  API with Spring Boot,Spring Security PostgreSQL, JPA, Docker,Lombok, Swagger mockito, Units 4,Healthcheck.
 
 [Jose Francisco valdez]
 
@@ -48,7 +48,7 @@ Let's walk through installing PostgreSQL with the postgresapp on Mac.
 **0.2 Runs as Spring boot app**
 * Clone the repository:
 ```bash
-https://github.com/pilon33/challenge-subsidiary.git
+https://github.com/pilon33/jfv-challenge-subsidiary.git
 ```
 * Update maven project:
 ```Runs As 
@@ -75,7 +75,7 @@ docker-compose -v
 **2. Spring boot app**
 * Clone the repository:
 ```bash
-https://github.com/pilon33/challenge-subsidiary.git
+https://github.com/pilon33/jfv-challenge-subsidiary.git
 ```
 * Build the maven project:
 ```bash
