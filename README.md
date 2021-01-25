@@ -1,9 +1,4 @@
 
-<<<<<<< HEAD
-## Lightweight RESTful  API with Spring Boot, PostgreSQL, JPA, Docker,Docker-compose Lombok, Swagger mockito, Units 4, Exceptions.
-
-[Jose Francisco valdez]
-
 ## How it works:
 =======
 ## Lightweight RESTful  API with Spring Boot,Spring Security PostgreSQL, JPA, Docker,Docker-compose Lombok, Swagger mockito, Units 4,Healthcheck and Exceptions.
@@ -60,15 +55,7 @@ Appendix A.
 All commands should be run from project root (where docker-compose.yml locates)
 
 **Guide for using endpoint the app:**
-
-Go to [http://localhost:8182/api/sucursales](http://localhost:8182/api/sucursales) 
-<<<<<<< HEAD
-to test and would specify basic authorization a username: `user` and password: `user` or username: `admin` and password: `admin`
-=======
-
 to test and would specify basic authorization a username: `admin` and password: `admin` 
-
->>>>>>> 1d05272db7d64d9da406d32c514b0956d638a4d9
 
 * GET request to `/api/sucursales/` returns a list of "subsidiarys";
 * GET request to `/api/sucursales/1` returns the "subsiadiary" with ID 1;
@@ -102,7 +89,4 @@ docker-compose rm -f
 
 
 
-<<<<<<< HEAD
-# jfv-challenge-subsidiary
-=======
->>>>>>> 1d05272db7d64d9da406d32c514b0956d638a4d9
+
